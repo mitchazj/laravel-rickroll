@@ -1,0 +1,46 @@
+{
+    "name": "mitchazj/laravel-rickroll",
+    "description": ":package_description",
+    "license": "license",
+    "authors": [
+        {
+            "name": "Mitchell Johnson",
+            "email": "",
+            "homepage": ""
+        }
+    ],
+    "homepage": "https://github.com/mitchazj/laravel-rickroll",
+    "keywords": [
+        "Laravel",
+        "laravel-rickroll"
+    ],
+    "require": {
+        "illuminate/support": "~5|~6|~7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "~3|~4",
+        "sempro/phpunit-pretty-print": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "mitchazj\\LaravelRickroll\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "mitchazj\\LaravelRickroll\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "mitchazj\\LaravelRickroll\\LaravelRickrollServiceProvider"
+            ],
+            "aliases": {
+                "laravel-rickroll": "mitchazj\\LaravelRickroll\\Facades\\LaravelRickroll"
+            }
+        }
+    }
+}
