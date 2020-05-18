@@ -1,7 +1,7 @@
 {
   "name": "mitchazj/laravel-rickroll",
-  "description": ":package_description",
-  "license": "license",
+  "description": "Sometimes you just gotta rickroll people who attempt to mess with your website.",
+  "license": "MIT",
   "authors": [
     {
       "name": "Mitchell Johnson"
