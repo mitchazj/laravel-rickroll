@@ -14,9 +14,9 @@ class LaravelRickrollServiceProvider extends ServiceProvider
     public function boot()
     {
         // $this->loadTranslationsFrom(__DIR__.'/../resources/lang', 'mitchazj');
-        // $this->loadViewsFrom(__DIR__.'/../resources/views', 'mitchazj');
         // $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        // $this->loadRoutesFrom(__DIR__.'/routes.php');
+        $this->loadViewsFrom(__DIR__ . '/../resources/views', 'mitchazj');
+        $this->loadRoutesFrom(__DIR__ . '/routes.php');
 
         // Publishing is only necessary when using the CLI.
         if ($this->app->runningInConsole()) {

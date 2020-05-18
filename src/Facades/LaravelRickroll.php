@@ -1,10 +1,10 @@
 <?php
 
-namespace mitchazj\laravel-rickroll\Facades;
+namespace mitchazj\LaravelRickroll\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class laravel-rickroll extends Facade
+class LaravelRickroll extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -13,6 +13,6 @@ class laravel-rickroll extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-rickroll';
+        return 'LaravelRickroll';
     }
 }

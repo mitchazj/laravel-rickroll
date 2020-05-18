@@ -1,14 +1,14 @@
-# laravel-rickroll
+# laravel-rickroll 🎤️
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Total Downloads][ico-downloads]][link-downloads]
 [![Build Status][ico-travis]][link-travis]
 
-![laravel rickroll]('carbon.png')
+![laravel rickroll](carbon.png)
 
-## What is this?
+TLDR: sometimes you just gotta rickroll people who attempt to mess with your website.
 
-Sometimes you just gotta rickroll people who attempt to mess with your website.
+Credit to Liam Hammett for his tweet (8k+ likes) that inspired this package: https://twitter.com/LiamHammett/status/1260984553570570240/
 
 ## Installation
 
@@ -16,17 +16,45 @@ Sometimes you just gotta rickroll people who attempt to mess with your website.
 $ composer require mitchazj/laravel-rickroll
 ```
 
-## Usage
+## Simple Usage
 
-Just install the package and that's it. Happy Rickrolling!
+Just install the package and that's it. Out-of-the box we'll redirect:
 
-## Customization
+- .env
+- wp-login
+- wp-login.php
+- wp-admin
+- wp-admin/\*
+- phpinfo.php
+- .htaccess
+
+Happy Rickrolling!
+
+## Advanced Usage
+
+### Custom Routes
+
+> Coming soon.
+
+### Custom Triggers
+
+> Coming soon.
+
+### Custom Rickroll Video
+
+> Coming soon.
+
+### Callbacks
+
+> Coming soon.
 
 ## Change log
 
 Please see the [changelog](changelog.md) for more information on what has changed recently.
 
 ## Testing
+
+TODO. These aren't set up properly yet.
 
 ```bash
 $ composer test
@@ -38,10 +66,10 @@ Please see [contributing.md](contributing.md) for details and a todolist.
 
 ## Credits
 
--   [Mitchell Johnson][link-author] (Orig. Author)
--   [All Contributors][link-contributors]
+- [Mitchell Johnson][link-author] (Orig. Author)
+- [All Contributors][link-contributors]
 
-Also massive thanks to Liam Hammett for his tweet (8k+ likes) that inspired this package: https://twitter.com/LiamHammett/status/1260984553570570240/
+Massive thanks to Liam Hammett for his tweet (8k+ likes) that inspired this package: https://twitter.com/LiamHammett/status/1260984553570570240/
 
 ## License
 
